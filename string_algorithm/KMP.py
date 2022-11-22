@@ -54,8 +54,10 @@ def computeLPSArray(pat, M, lps):
 				lps[i] = 0
 				i += 1
 
-txt = "ABABDABACDABABCABAB"
-pat = "ABABCABAB"
-KMPSearch(pat, txt)
+				
+if __name__ == "__main__":
+    txt = "ABABDABACDABABCABAB"
+    pat = "ABABCABAB"
+    KMPSearch(pat, txt)
 
-# This code is contributed by Bhavya Jain
+
