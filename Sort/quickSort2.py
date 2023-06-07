@@ -26,3 +26,5 @@ def quick_sort(arr):
 arr = quick_sort(arr)
 
 print(arr)
+
+# 재귀호출할 떄마다 매번 새로운 리스트를 생성하기 떄문에 메모리에 매우 비효율적
