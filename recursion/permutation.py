@@ -5,7 +5,6 @@ def permutation(arr, start):
         return
     
     for idx in range(start, len(arr)):
-
         arr[start], arr[idx] = arr[idx], arr[start]
         permutation(arr, start+1)
         arr[start], arr[idx] = arr[idx], arr[start]
